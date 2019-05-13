@@ -9,7 +9,7 @@ C'est une plateforme d'*intégration de données* qui, depuis sa création en 20
 
 
 
-## Trop de *buzzwords*, présentez moi des scénarios d'utilisation ?
+## Trop de *buzzwords*, présentez moi des scénarios d'utilisation
 Chez eTech, nous utilisons Talend principalement pour deux choses: 
 1. **Traitement en batch de données automatisé et planifié** (cron) sur Jenkins (Open Studio) ou TAC (Entreprise). Par exemple, un client nous a confié le developpement et la migration de son site vers une nouvelle plateforme utilisant le stack suivant pour le backend: Symfony, Neo4j, LDAP. Et naturellement, ceci inclue la migration de leurs données. Que feriez-vous si vous aurez en main quelques dumps CSV de tables relationnelles inconsistents et médiocrement structurés à importer vers cette nouvelle plateforme dans lequel un champ unique d'un table MySQL doit impérativement figurer dans LDAP et Neo4j doit avoir une vue graph? Talend était la solution.
 Dans un autre exemple, on devait approvisionner quotidiennement le catalogue d'un Marketplace sous Magento. Le hic c'est que les sources, et par conséquent les formats, des données sont hétérogènes; un fournisseur utilise encore du SOAP (un tech aussi antique que Rome, mais sans la beauté époustouflante) tandis que d'autres un RESTful webservice. En amont, vous aurez donc plusieurs fichiers interdépendants, certains en XML, d'autres en JSON et vous devriez tout faire pour qu'à la sortie vous aurez un format acceptable par Magento. Cool, maintenant ils ont décidé de remplacer Magento par Odoo! Vous aurez sans doute une idée de la quantité de cheveux que vous vous arracheriez si vous devriez developper tout cela à la main.
@@ -29,7 +29,7 @@ A ce stade, vous devez avoir une vision un peu plus claire de ce que vous allez 
 
 ## Qu'est-ce qu'il faut pour devenir un developpeur Talend ?
 
-Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag and drop*, qu'il n'est pas utilise de savoir developper en Java. D'après mon expérience, je ne sais pas comment j'aurais pu me débrouiller sans connaitre Java. Globalement, vous devez savoir un peu de tout élément composant votre système. Comment intégrer des données vers un entrepot si vous ne savez même pas comment fonctionne un RDBMS ? A part, voici une liste de chose que vous devez connaitre, pratiquez avant de commencer.
+Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag and drop*, qu'il n'est pas utile de savoir developper en Java. D'après mon expérience, je ne sais pas comment j'aurais pu me débrouiller sans connaitre Java. Globalement, vous devez savoir un peu de tout élément composant votre système. Comment intégrer des données vers un entrepot si vous ne savez même pas comment fonctionne un RDBMS ? A part, voici une liste de chose que vous devez connaitre, pratiquez avant de commencer.
 
 + *Java:*  [Learn Java in y minutes](https://learnxinyminutes.com/docs/java/), [tutorials point](https://www.tutorialspoint.com/java/)
 + *Document:* [XML tutorial](https://www.w3schools.com/xml/), ou [l'apprendre en quelques minutes](https://learnxinyminutes.com/docs/xml/) notamment les [xpath](https://www.w3schools.com/xml/xpath_intro.asp). Vous aurez frequement affaire aux JSON alors le moins que vous puissiez faire c'est [apprendre les jsonpath](https://www.baeldung.com/guide-to-jayway-jsonpath). Parfois, je fais appel a [org.json](http://www.docjar.com/docs/api/org/json/JSONObject.html) pour les manipulations avancees. 
