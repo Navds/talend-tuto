@@ -34,3 +34,10 @@ Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag a
 + *Java:*  [Learn Java in y minutes](https://learnxinyminutes.com/docs/java/), [tutorials point](https://www.tutorialspoint.com/java/)
 + *Document:* [XML tutorial](https://www.w3schools.com/xml/), ou [l'apprendre en quelques minutes](https://learnxinyminutes.com/docs/xml/) notamment les [xpath](https://www.w3schools.com/xml/xpath_intro.asp). Vous aurez frequement affaire aux JSON alors le moins que vous puissiez faire c'est [apprendre les jsonpath](https://www.baeldung.com/guide-to-jayway-jsonpath). Parfois, je fais appel a [org.json](http://www.docjar.com/docs/api/org/json/JSONObject.html) pour les manipulations avancees. 
 + *Messaging*: Vous devez [decouvrir ActiveMQ](https://activemq.apache.org/getting-started.html), moi je prefere un livre comme [ActiveMQ in Action](https://www.manning.com/books/activemq-in-action)
++ *Enterprise Integration*: Je vous mets au defi de trouver un tutoriel digne de ce nom pour les composants de mediation Talend. Vous vous égarerez très certainement si vous croyez que Talend ESB est juste du drag and drop. Aussi, je vous recommande vivement de faire une lecture active pour apprendre le design pattern d'intégration entreprise. Talend utilise [Apache Camel](https://camel.apache.org/) qui est un framework implémentant ces design patterns. [C'est quoi Camel ?](https://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
+<p align="center">
+  <img width="500" height="280" src="screenshot/each-camel-with-their.jpg">
+</p>
+<p align="center">
+    <em>Le seul Camel que vous avez connu jusqu'à présent</em>
+</p>
