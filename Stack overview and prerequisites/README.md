@@ -26,3 +26,11 @@ Dans un autre exemple, on devait approvisionner quotidiennement le catalogue d'u
 Dans un future très proche, nous espérons envahir le monde du BigData auquel Talend se trouve particulièrement efficace en générant des codes prêts à tourner sous Hadoop/Spark.
 
 A ce stade, vous devez avoir une vision un peu plus claire de ce que vous allez apprendre. 
+
+## Qu'est-ce qu'il faut pour devenir un developpeur Talend ?
+
+Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag and drop*, qu'il n'est pas utilise de savoir developper en Java. D'après mon expérience, je ne sais pas comment j'aurais pu me débrouiller sans connaitre Java. Globalement, vous devez savoir un peu de tout élément composant votre système. Comment intégrer des données vers un entrepot si vous ne savez même pas comment fonctionne un RDBMS ? A part, voici une liste de chose que vous devez connaitre, pratiquez avant de commencer.
+
++ *Java:*  [Learn Java in y minutes](https://learnxinyminutes.com/docs/java/), [tutorials point](https://www.tutorialspoint.com/java/)
++ *Document:* [XML tutorial](https://www.w3schools.com/xml/), ou [l'apprendre en quelques minutes](https://learnxinyminutes.com/docs/xml/) notamment les [xpath](https://www.w3schools.com/xml/xpath_intro.asp). Vous aurez frequement affaire aux JSON alors le moins que vous puissiez faire c'est [apprendre les jsonpath](https://www.baeldung.com/guide-to-jayway-jsonpath). Parfois, je fais appel a [org.json](http://www.docjar.com/docs/api/org/json/JSONObject.html) pour les manipulations avancees. 
++ *Messaging*: Vous devez [decouvrir ActiveMQ](https://activemq.apache.org/getting-started.html), moi je prefere un livre comme [ActiveMQ in Action](https://www.manning.com/books/activemq-in-action)
