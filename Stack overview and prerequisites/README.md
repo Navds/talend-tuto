@@ -41,3 +41,39 @@ Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag a
 <p align="center">
     <em>Le seul Camel que vous avez connu jusqu'à présent</em>
 </p>
+
+## Exercices
+
+1. Creer une routine talend et completer les methodes suivant:
+
+`Helper.java`
+```java
+  /**
+  * It is advised to have a Helper routine where you can add
+  * java specific process.
+  */
+  class Helper 
+  {
+
+    /**
+    * fetchImageBase64FromUrl : take an image url and return a 
+    * base64 encoded string from it.
+    */
+    public static String fetchImageBase64FromUrl(String url) {
+      String b64 = "";
+      // complete
+
+      return b64;
+    }
+
+    /**
+    * sanitizeFieldValue : take an input String and make sure it will
+    * not contain non ascii character. Convert ù => u, é => e, a => à etc..
+    */
+    public static String sanitizeFieldValue(String entry) {
+      String res = null;
+      // complete
+      return res;
+    }
+  }
+```
