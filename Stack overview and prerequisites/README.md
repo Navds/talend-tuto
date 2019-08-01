@@ -44,7 +44,7 @@ Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag a
 
 ## Exercices
 
-1. Creer une routine talend et completer les methodes suivant:
+1. Completer les methodes suivant:
 
 `Helper.java`
 ```java
@@ -77,3 +77,32 @@ Ailleurs (quora, yahoo ask, etc), on vous dira que Talend c'est juste du *drag a
     }
   }
 ```
+2. Donner l'expression jsonpath pour obtenir le resultat suivant (utiliser https://jsonpath.com/ pour tester)
+
+`INPUT:`
+```json
+{
+  "errors": [
+    {
+      "status": "403",
+      "source": { "pointer": "/data/attributes/secretPowers" },
+      "detail": "Editing secret powers is not authorized on Sundays."
+    },
+    {
+      "status": "422",
+      "source": { "pointer": "/data/attributes/volume" },
+      "detail": "Volume does not, in fact, go to 11."
+    },
+    {
+      "status": "500",
+      "source": { "pointer": "/data/attributes/reputation" },
+      "title": "The backend responded with an error",
+      "detail": "Reputation service not responding after three requests."
+    }
+  ]
+}
+```
+
+`OUTPUT:` Le detail de l'erreur ayant le status 422.
+
+3. Pratiquer les [exercices sur xpath](https://dh.newtfire.org/XPathExercise1.html)
